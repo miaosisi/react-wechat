@@ -1,0 +1,40 @@
+{
+    "name": "react-wechat",
+    "version": "1.0.0",
+    "description": "A framework for wechat with react and react-router",
+    "main": "lib/index.js",
+    "scripts": {
+      "test": "npm test"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:miaosisi/react-wechat.git"
+    },
+    "keywords": [
+      "wechat",
+      "react",
+      "react-router"
+    ],
+    "author": "gsj987",
+    "license": "ISC",
+    "peerDependencies": {
+      "react": "0.13.x",
+      "react-router": "0.13.x",
+      "jquery": "*",
+      "reflux": "*"
+    },
+    "devDependencies": {
+      "gulp": "^3.9.0",
+      "react-component-gulp-tasks": "^0.7.7",
+      "reactify": "^1.1.1"
+    },
+    "browserify-shim": {
+      "react": "global:React",
+      "react-router": "global:react-router",
+      "jquery": "global:jquery",
+      "reflux": "global:reflux"
+    },
+    "dependencies": {
+      "store2": "^2.3.2"
+    }
+  }
